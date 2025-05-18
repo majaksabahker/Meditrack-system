@@ -1,0 +1,60 @@
+.patient-dashboard {
+    min-height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-header {
+    background-color: #00796b;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dashboard-header h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+  }
+  
+  .dashboard-header p {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  .dashboard-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2.5rem;
+    flex-grow: 1;
+    background-color: #f4f9ff;
+  }
+  
+  .dashboard-card {
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 121, 107, 0.1);
+    text-align: center;
+  }
+  
+  .dashboard-card h3 {
+    color: #00796b;
+    margin-bottom: 0.75rem;
+  }
+  
+  .dashboard-card p {
+    color: #444;
+    font-size: 0.95rem;
+  }
+  
+  .dashboard-footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+  }
+  
